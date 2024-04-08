@@ -16,8 +16,9 @@ body {
 	color: lightblue;
 	background-color: black;
 	padding: 10px;
-	
 }
+
+
 
 #title {
 	display: inline-block;
@@ -76,3 +77,27 @@ body {
 	display: inline-block;
 	margin: 0px;
 }
+
+.outline {
+	background-color: rgba(0, 0, 0, 0);
+	border: 5px solid black;
+}
+
+/* Custom selection colors */
+
+/*
+body *::selection {
+	background-color: black;
+	color: #D9D3CC;
+}
+
+#back::selection {
+	color: black;
+	background-color: #D9D3CC;
+}
+
+.block *::selection {
+	background-color: #D9D3CC;
+	color: black;
+}
+*/

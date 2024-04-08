@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			rwdd64 - DVD Screen
+		</title>
+		<link rel=stylesheet href="../style.css"> <!--Elementos default do site-->
+		<link rel=stylesheet href="style.css"> <!--Style específico da página-->
+
+	</head>
+	<body>		
+		<div id="header">
+			<a id="back" href="../index.html">Go back home</a>
+			
+			<h1 id="title">DVD</h1>
+			
+			<hr class="line">
+		</div>
+		
+		<div id="page">
+			<div  class="block outline" id="dvdblock">
+				<div id="dvd">
+					<img src="../assets/dvd.png" id="dvd_img">
+				</div>
+			</div>
+			<button id="startbtn">Start</button>
+			<button id="stopbtn">Stop</button>
+			<button id="resetbtn">Reset</button>
+			
+			<div id="speedconfig">
+				<input type="range"
+				  min="1" max="10" value="1"
+				  class="slider" id="speedslider">
+				<br>
+				<div id="speedtext">
+					Speed -> 1
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

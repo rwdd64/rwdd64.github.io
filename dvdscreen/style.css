@@ -1,0 +1,11 @@
+#dvdblock {
+	text-align: left;
+	height: 400px;
+}
+
+#dvd {
+	display: inline-block;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
